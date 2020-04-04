@@ -22,12 +22,12 @@ body {
 /* Track */
 ::-webkit-scrollbar-track {
     width: 5px;
-    background-color: #000000;
+    background-color: #233254;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right, #1423A0 , #0C214C);
+    background-image: linear-gradient(to right, #233254 , #ffffff);
 }
 
 .navbar-toggler-icon {
