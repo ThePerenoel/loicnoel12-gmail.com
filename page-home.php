@@ -10,7 +10,7 @@
 
 <div id="home-background" class="parallax">
   <div class="site-name">
-    <?php echo get_bloginfo('name'); ?> 
+    <img id="big_logo_py" src="wp-content/themes/parisyos_theme/css/parisyos_logo_big.png">
   </div>
   <div class="site-description">
     <?php echo get_bloginfo ( 'description' ); ?>
