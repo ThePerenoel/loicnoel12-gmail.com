@@ -1,3 +1,10 @@
+<?php
+
+/**
+  Template Name: Accueil page
+ */
+?>
+
 <!DOCTYPE html>
 
 <html lang="fr">
