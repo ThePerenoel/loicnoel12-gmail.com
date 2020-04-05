@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   enable-background="new 0 0 512 512"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   sodipodi:docname="meditation (1).svg"
+   inkscape:export-filename="/home/loic/Téléchargements/meditation.png"
+   inkscape:export-xdpi="18.75"
+   inkscape:export-ydpi="18.75"
+   inkscape:version="0.92.4 (fd57863, 2020-04-02)">
+  <metadata
+     id="metadata5282">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5280" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1019"
+     id="namedview5278"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="18.440678"
+     inkscape:cy="256"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_1" />
+  <path
+     d="m256 142c-39.149 0-71-31.851-71-71s31.851-71 71-71c39.15 0 71 31.851 71 71s-31.85 71-71 71z"
+     id="path5269"
+     style="fill:#233254;fill-opacity:1" />
+  <path
+     d="m426.41 512h-242.705c-18.063 0-32.705-14.643-32.705-32.705 0-15.806 11.304-29.35 26.855-32.178l238.79-43.416c33.509-6.093 64.355 19.65 64.355 53.709 0 30.149-24.441 54.59-54.59 54.59z"
+     id="path5271"
+     style="fill:#233254;fill-opacity:1" />
+  <path
+     d="m474.5 262h-39.843l-36.718-62.945c-16.066-27.542-42.872-46.917-73.296-54.04-18.031 16.735-42.161 26.985-68.643 26.985s-50.612-10.25-68.644-26.985c-30.424 7.124-57.229 26.499-73.296 54.04l-36.717 62.945h-39.843c-20.711 0-37.5 16.789-37.5 37.5s16.789 37.5 37.5 37.5h78.458c4.657 0 9.05-2.163 11.89-5.854l23.11-30.043v82.217l105.042 19.097 105.042-19.099v-82.216l23.11 30.043c2.84 3.691 7.233 5.854 11.89 5.854h78.458c20.711 0 37.5-16.789 37.5-37.5s-16.789-37.499-37.5-37.499z"
+     id="path5273"
+     style="fill:#233254;fill-opacity:1" />
+  <path
+     d="m172.167 417.667-76.812-13.966c-33.509-6.093-64.355 19.65-64.355 53.709 0 30.149 24.441 54.59 54.59 54.59h44.639c-5.849-9.529-9.229-20.729-9.229-32.705 0-30.214 21.5-56.076 51.167-61.628z"
+     id="path5275"
+     style="fill:#233254;fill-opacity:1" />
+</svg>

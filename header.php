@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-        <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <title>Paris Yoseikan</title>
-                <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
-                <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Questrial&display=swap" rel="stylesheet">
-                <?php wp_head(); ?>
-        </head>
-      <body>
 
-        <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand" href="<?php echo get_site_url() ?>">
-            <img id="logo_mf" src="<?php echo get_template_directory_uri() . '/parisyos_logo.png'; ?>">
-          </a>
-          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <?php
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Paris Yoseikan</title>
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Questrial&display=swap" rel="stylesheet">
+  <?php wp_head(); ?>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="<?php echo get_site_url() ?>">
+      <img id="logo_mf" src="<?php echo get_template_directory_uri() . '/parisyos_logo.png'; ?>">
+    </a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <?php
               wp_nav_menu(
                 array(
                   'container'       => 'div',
@@ -33,4 +36,4 @@
                 )
               );
             ?>
-        </nav>
+  </nav>

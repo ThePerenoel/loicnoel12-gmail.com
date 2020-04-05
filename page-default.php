@@ -17,18 +17,18 @@ get_header(); ?>
             while (have_posts()) {
               the_post();
         ?>
-              <div class="col-12">
-                <h4>
-                    <?php the_title();?>
-                </h4>
-                <p><?php the_content(); ?></p>
-              </div>
+      <div class="col-12">
+        <h4>
+          <?php the_title();?>
+        </h4>
+        <p><?php the_content(); ?></p>
+      </div>
 
-        <?php
+      <?php
             }
           }
         ?>
-      </div>
+    </div>
 
   </div>
 

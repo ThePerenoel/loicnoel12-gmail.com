@@ -27,15 +27,15 @@
             while (have_posts()) {
               the_post();
         ?>
-          <div class="col-12 p-0 card">
-              <p><?php the_content(); ?></p>
-          </div>
-          <?php get_footer(); ?>
-        <?php
+      <div class="col-12 p-0 card home-card">
+        <p><?php the_content(); ?></p>
+      </div>
+      <?php get_footer(); ?>
+      <?php
             }
           }
         ?>
-      </div>
+    </div>
 
   </div>
 
