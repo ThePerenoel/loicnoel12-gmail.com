@@ -9,11 +9,6 @@ body {
   font-family: 'Maven Pro', sans-serif;
 }
 
-#logo_mf {
-  height: 40px;
-  padding-left: 10px;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -92,9 +87,12 @@ footer>p {
     height: 400px;
   }
 
+  .wp-block-quote p {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
 }
-
-
 
 
 #home-background {
@@ -176,7 +174,7 @@ blockquote p {
 }
 
 blockquote cite {
-  padding-right: 120px;
+  padding-right: 15px;
   display: block;
   text-align: right;
 }
