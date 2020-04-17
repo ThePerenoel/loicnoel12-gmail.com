@@ -18,32 +18,36 @@ body {
 /* Track */
 ::-webkit-scrollbar-track {
   width: 5px;
-  background-color: #233254;
+  /*background-image: linear-gradient(to right, #ffffff, #233254);*/
+  background-color: #ffffff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to right, #233254, #ffffff);
+  /*background-image: linear-gradient(to right, #233254, #ffffff);*/
+  background-color: #233254;
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-
-
 footer {
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   font-size: 15px;
-  background-color: #1D1E3D;
+  background-color: #233254;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer>p {
-  margin-top: 10px;
   margin-bottom: 0;
   color: white;
 }
@@ -55,11 +59,27 @@ footer>p {
     margin-right: 15px;
   }
 
+  .home-card h2 {
+    margin-left: 5px;
+  }
+
   #big_logo_py {
     height: 300px;
     max-width: 100%;
   }
-  
+
+  .home-navbar {
+    background-color: #233254;
+  }
+
+  .card {
+    border-radius: 0;
+  }
+
+  #home-background {
+    height: 100%;
+  }
+
 }
 
 @media screen and (min-width: 425px) {
@@ -69,14 +89,22 @@ footer>p {
     margin-right: 15px;
   }
 
-  .card h2 {
+  h2 {
     font-weight: bold;
-    padding-bottom: 30px;
-    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-top: 45px;
   }
 
   #big_logo_py {
     height: 300px;
+  }
+
+  .starter-template {
+    margin: -60px 30px 0;
+  }
+
+  #home-background {
+    height: 95%;
   }
 
 }
@@ -94,6 +122,9 @@ footer>p {
 
 }
 
+/*********************************************************************/
+/*                               Home                                */
+/*********************************************************************/
 
 #home-background {
   background-image: url(yoseikan-budo.jpg);
@@ -104,7 +135,11 @@ footer>p {
   justify-content: center;
   background-size: cover;
   color: white;
-  margin-top: -66px;
+  margin-top: -55px;
+}
+
+.card {
+  border: 0;
 }
 
 .parallax {
@@ -129,17 +164,12 @@ footer>p {
 
 .starter-template {
   background-color: white;
-  margin: -60px 30px 0;
   border-radius: 6px 6px 0 0;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
-.card p,
-.card h2,
-.card h3,
-.card h4,
-.card ul {
-  text-align: justify;
+p,
+ul {
   color: #233254;
 }
 
@@ -147,8 +177,11 @@ footer>p {
   padding-left: 0 !important;
 }
 
-.card h2 {
+h2,
+h3,
+h4 {
   font-weight: bold;
+  color: #d65600;
 }
 
 .presentation {
@@ -192,14 +225,129 @@ blockquote cite {
   margin-right: 15px;
 }
 
-.container-fluid {
-  background-color: #233254;
-}
-
 .wp-block-quote p {
   color: white;
 }
 
-.home-card {
-  margin-top: -30px;
+
+/*********************************************************************/
+/*                            Default                                */
+/*********************************************************************/
+
+.starter-template-default {
+  background-color: white;
+  margin: 30px 0 50px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 30px 0;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.starter-template-default p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.starter-template-default h1 {
+  color: white;
+  text-align: center;
+  background-image: url(yoseikan-budo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+}
+
+.starter-template-default h2,
+h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#logo_py {
+  height: 60px;
+}
+
+.py-nav-default {
+  background-color: #233254;
+}
+
+iframe {
+  width: 100%;
+}
+
+
+.starter-template-default h2 {
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+
+footer a {
+  color: #d65600;
+}
+
+footer a:hover {
+  color: #fc6945;
+}
+
+a:hover {
+  color: #d65600;
+  text-decoration: none;
+}
+
+h3 {
+  padding-bottom: 10px;
+  background-color: #d65600;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.affiliate {
+  padding-top: 30px;
+}
+
+.affiliate img {
+  height: 50px;
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+
+.light-blue {
+  background-color: #5E85E0;
+}
+
+.medium-blue {
+  background-color: #435FA1;
+}
+
+.dark-blue {
+  background-color: #233254;
+}
+
+.wp-block-image img {
+  max-height: 380px;
 }

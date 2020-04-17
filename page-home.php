@@ -1,7 +1,7 @@
 <?php
 
 /**
-  Template Name: Accueil page
+  Template Name: Page Accueil
  */
 ?>
 
@@ -20,7 +20,9 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md">
+  <nav class="navbar navbar-expand-md home-navbar">
+    <a class="navbar-brand" href="<?php echo get_site_url() ?>">
+    </a>
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
       aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -42,35 +44,35 @@
             ?>
   </nav>
 
-<div id="home-background" class="parallax">
-  <div class="site-name">
-    <img id="big_logo_py" src="wp-content/themes/parisyos_theme/css/parisyos_logo_big.png">
+  <div id="home-background" class="parallax">
+    <div class="site-name">
+      <img id="big_logo_py" src="wp-content/themes/parisyos_theme/css/parisyos_logo_big.png">
+    </div>
+    <div class="site-description">
+      <?php echo get_bloginfo ( 'description' ); ?>
+    </div>
   </div>
-  <div class="site-description">
-    <?php echo get_bloginfo ( 'description' ); ?>
-  </div>
-</div>
 
-<main role="main" class="container-fluid">
+  <main role="main" class="container">
 
-  <div class="starter-template">
+    <div class="starter-template">
 
-    <div class="row">
-      <?php
+      <div class="row">
+        <?php
           if (have_posts()) {
             while (have_posts()) {
               the_post();
         ?>
-      <div class="col-12 p-0 card home-card">
-        <p><?php the_content(); ?></p>
-      </div>
-      <?php get_footer(); ?>
-      <?php
+        <div class="col-12 p-0 card home-card">
+          <p><?php the_content(); ?></p>
+        </div>
+        <?php get_footer(); ?>
+        <?php
             }
           }
         ?>
+      </div>
+
     </div>
 
-  </div>
-
-</main>
+  </main>

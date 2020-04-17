@@ -11,7 +11,7 @@
         <head>
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <title>Mathilde Faivre Website</title>
+                <title>Paris Yoseikan Website</title>
                 <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
                 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
                 <?php wp_head(); ?>

@@ -1,7 +1,7 @@
 <?php
 
 /**
-  Template Name: Default page
+  Template Name: Page normale
  */
 
 get_header(); ?>
@@ -9,7 +9,7 @@ get_header(); ?>
 
 <main role="main" class="container">
 
-  <div class="starter-template">
+  <div class="starter-template-default">
 
     <div class="row">
       <?php
@@ -18,9 +18,9 @@ get_header(); ?>
               the_post();
         ?>
       <div class="col-12">
-        <h4>
+        <h1>
           <?php the_title();?>
-        </h4>
+        </h1>
         <p><?php the_content(); ?></p>
       </div>
 
