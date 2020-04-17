@@ -80,6 +80,18 @@ footer>p {
     height: 100%;
   }
 
+  blockquote {
+    background-attachment: scroll;
+  }
+
+  #home-background {
+    background-attachment: scroll;
+  }
+
+  .starter-template-default h1 {
+  background-attachment: scroll;
+  }
+
 }
 
 @media screen and (min-width: 425px) {
@@ -106,6 +118,18 @@ footer>p {
   #home-background {
     height: 95%;
   }
+
+  blockquote {
+    background-attachment: fixed;
+  }
+
+  #home-background {
+    background-attachment: fixed;
+  }
+
+  .starter-template-default h1 {
+    background-attachment: fixed;
+    }
 
 }
 
@@ -199,7 +223,6 @@ blockquote {
   background-image: url("fujiyama-mountain.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
 }
 
 blockquote p {
@@ -274,7 +297,7 @@ h3 {
   background-color: #233254;
 }
 
-iframe {
+.dojo-map {
   width: 100%;
 }
 
@@ -346,8 +369,4 @@ h4 {
 
 .dark-blue {
   background-color: #233254;
-}
-
-.wp-block-image img {
-  max-height: 380px;
 }
