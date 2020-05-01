@@ -14,29 +14,59 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md py-nav-default">
-    <a class="navbar-brand" href="<?php echo get_site_url() ?>">
-      <img id="logo_py" src="<?php echo get_template_directory_uri() . '/parisyos_logo.png'; ?>">
-      Paris Yoseikan
-    </a>
-    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <?php
-              wp_nav_menu(
-                array(
-                  'theme_location'  => 'primary',
-                  'container'       => 'div',
-                  'container_class' => 'collapse navbar-collapse',
-                  'container_id'    => 'navbarMenu',
-                  'menu_class'      => 'menu',
-                  'echo'            => true,
-                  'fallback_cb'     => 'wp_page_menu',
-                  'items_wrap'      => '<ul class="navbar-nav navbar-items ml-auto">%3$s</ul>',
-                  'depth'           => 0,
-                  'walker'          => new Mf_theme_nav_menu_walker
-                )
-              );
-            ?>
-  </nav>
+  <div class="nav-area">
+          <div class="brand">
+            <a class="brand" href="<?php echo get_site_url() ?>">
+              <img id="logo_mf" src="<?php echo get_template_directory_uri() . '/logo_mf_2.png'; ?>">
+            </a>
+          </div>
+          <input type="checkbox" class="hamburger-menu">
+          <div class="nav-icon">
+            <div></div>
+          </div>
+          <div class="main-menu container-fluid m-0 p-0">
+            <div class="row m-0">
+              <div class="col-sm-6 col-xs-12">
+                 <?php
+                    wp_nav_menu(
+                    array(
+                      'container'       => '',
+                      'container_class' => '',
+                      'container_id'    => '',
+                      'menu_class'      => '',
+                      'echo'            => true,
+                      'fallback_cb'     => 'wp_page_menu',
+                      'items_wrap'      => '<ul>%3$s</ul>',
+                      'depth'           => 0,
+                      'walker'          => ''
+                    )
+                  );
+                ?>
+              </div>
+              <div class="col-sm-6 col-xs-12">
+                <div class="menu-contact-title">
+                  Contact
+                </div>
+                <div>
+                  <a target="_blank" href="mailto:mathilde.faivre@gmail.com"> mathilde.faivre@gmail.com </a>
+                </div>
+                <div class="menu-contact-title social-title">
+                  Social
+                </div>
+                <div>
+                  <a target="_blank" href="https://medium.com/@mathildefaivre6">
+                    Medium
+                  </a>
+                  &#8226;
+                  <a target="_blank" href="https://www.instagram.com/lens_of_june/">
+                    Instagram
+                  </a>
+                  &#8226;
+                  <a target="_blank" href="https://www.linkedin.com/in/mathilde-faivre-strategist">
+                    LinkedIn
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
