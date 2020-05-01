@@ -15,21 +15,26 @@
   <title>Paris Yoseikan</title>
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Questrial&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md home-navbar">
-    <a class="navbar-brand" href="<?php echo get_site_url() ?>">
-    </a>
-    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <?php
+  <div id="home-background" class="parallax">
+    <nav class="navbar navbar-expand-md home-navbar">
+      <a class="navbar-brand" href="<?php echo get_site_url() ?>">
+        <img id="logo_py_white" src="<?php echo get_template_directory_uri() . '/parisyos_logo_white.png'; ?>">
+        <span id="py-name">Paris Yoseikan</span>
+      </a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <?php
               wp_nav_menu(
                 array(
+                  'theme_location'  => 'primary',
                   'container'       => 'div',
                   'container_class' => 'collapse navbar-collapse',
                   'container_id'    => 'navbarMenu',
@@ -42,14 +47,14 @@
                 )
               );
             ?>
-  </nav>
-
-  <div id="home-background" class="parallax">
+    </nav>
     <div class="site-name">
-      <img id="big_logo_py" src="wp-content/themes/parisyos_theme/css/parisyos_logo_big.png">
-    </div>
-    <div class="site-description">
+      <div class="logo-slogan">
+        <img id="big_logo_py" src="<?php echo get_template_directory_uri() . '/css/parisyos_logo_big.png'; ?>">
+      </div>
+      <div class="site-description">
       <?php echo get_bloginfo ( 'description' ); ?>
+    </div>
     </div>
   </div>
 

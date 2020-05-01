@@ -8,6 +8,7 @@
   <title>Paris Yoseikan</title>
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Questrial&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 
@@ -25,6 +26,7 @@
     <?php
               wp_nav_menu(
                 array(
+                  'theme_location'  => 'primary',
                   'container'       => 'div',
                   'container_class' => 'collapse navbar-collapse',
                   'container_id'    => 'navbarMenu',

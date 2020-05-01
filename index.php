@@ -3,7 +3,7 @@
 
 <main role="main" class="container">
 
-  <div class="starter-template">
+  <div class="starter-template-default default-page">
 
     <?php
     $categories = get_the_category();

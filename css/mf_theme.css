@@ -6,7 +6,7 @@ html {
 body {
   background-color: #e5e5e5;
   color: #333;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
 
 /* width */
@@ -18,13 +18,11 @@ body {
 /* Track */
 ::-webkit-scrollbar-track {
   width: 5px;
-  /*background-image: linear-gradient(to right, #ffffff, #233254);*/
   background-color: #ffffff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  /*background-image: linear-gradient(to right, #233254, #ffffff);*/
   background-color: #233254;
 }
 
@@ -45,6 +43,7 @@ footer {
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  color: white;
 }
 
 footer>p {
@@ -68,10 +67,6 @@ footer>p {
     max-width: 100%;
   }
 
-  .home-navbar {
-    background-color: #233254;
-  }
-
   .card {
     border-radius: 0;
   }
@@ -82,6 +77,7 @@ footer>p {
 
   blockquote {
     background-attachment: scroll;
+
   }
 
   #home-background {
@@ -89,7 +85,24 @@ footer>p {
   }
 
   .starter-template-default h1 {
-  background-attachment: scroll;
+    background-attachment: scroll;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #logo_py_white,
+  #py-name {
+    display: none;
+  }
+
+  .site-name {
+    margin-top: -56px;
   }
 
 }
@@ -129,7 +142,16 @@ footer>p {
 
   .starter-template-default h1 {
     background-attachment: fixed;
-    }
+  }
+
+  .starter-template-default h2 {
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
+
+  .site-name {
+    margin-top: -86px;
+  }
 
 }
 
@@ -156,10 +178,8 @@ footer>p {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-size: cover;
   color: white;
-  margin-top: -55px;
 }
 
 .card {
@@ -177,9 +197,10 @@ footer>p {
 }
 
 .site-name {
-  font-size: 5em;
-  line-height: 77.28px;
-  font-weight: bold
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .site-description {
@@ -223,6 +244,7 @@ blockquote {
   background-image: url("fujiyama-mountain.jpg");
   background-size: cover;
   background-position: center center;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 blockquote p {
@@ -273,7 +295,6 @@ blockquote cite {
 .starter-template-default h1 {
   color: white;
   text-align: center;
-  background-image: url(yoseikan-budo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   height: 150px;
@@ -283,14 +304,10 @@ blockquote cite {
   background-size: cover;
 }
 
-.starter-template-default h2,
-h3 {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#logo_py {
-  height: 60px;
+#logo_py, #logo_py_white {
+  height: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .py-nav-default {
@@ -299,12 +316,6 @@ h3 {
 
 .dojo-map {
   width: 100%;
-}
-
-
-.starter-template-default h2 {
-  padding-bottom: 45px;
-  padding-top: 45px;
 }
 
 footer a {
@@ -334,6 +345,8 @@ h3 {
 
 .navbar-brand {
   color: white;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.45em;
 }
 
 .navbar-brand:hover {
@@ -369,4 +382,44 @@ h4 {
 
 .dark-blue {
   background-color: #233254;
+}
+
+.prices-card {
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+  background-color: #e5e5e5;
+}
+
+.prices-block-columns {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.default-page h1 {
+  background-image: url(yoseikan-budo.jpg);
+}
+
+.club-page h1 {
+  background-image: url(cours.jpg);
+}
+
+.practical-page h1 {
+  background-image: url(prises.jpg);
+}
+
+.history-page h1 {
+  background-image: url(iaito.jpg);
+}
+
+.home-navbar {
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#logo_py_footer {
+  height: 110px;
 }

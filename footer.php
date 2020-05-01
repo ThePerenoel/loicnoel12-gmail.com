@@ -22,13 +22,31 @@
       </div>
     </div>
   </div>
-  <p>© Paris Yoseikan
+
+  <?php
+        wp_nav_menu(
+          array(
+            'theme_location'  => 'footer',
+            'container'       => 'div',
+            'container_class' => '',
+            'container_id'    => '',
+            'menu_class'      => 'menu',
+            'echo'            => true,
+            'fallback_cb'     => 'wp_page_menu',
+            'items_wrap'      => '|&nbsp;%3$s',
+            'depth'           => 0,
+            'walker'          =>  new PY_register_nav_menu_walker
+          )
+        );
+      ?>
+
+  <p class="copyright">
+  <img id="logo_py_footer" src="<?php echo get_template_directory_uri() . '/parisyos_logo_white.png'; ?>"><br>
+  © Paris Yoseikan
     <?php
           $year = date("Y");
           echo $year;
-        ?> <br>
-    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
-      href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        ?>
   </p>
 
 </footer>

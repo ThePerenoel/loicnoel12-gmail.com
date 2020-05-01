@@ -1,7 +1,7 @@
 <?php
 
 /**
-  Template Name: Page normale
+  Template Name: Page histoire
  */
 
 get_header(); ?>
@@ -9,7 +9,7 @@ get_header(); ?>
 
 <main role="main" class="container">
 
-  <div class="starter-template-default default-page">
+  <div class="starter-template-default history-page">
 
     <div class="row">
       <?php
