@@ -10,7 +10,7 @@
       </div>
       <div class="col-md-4 m-0 p-0">
         <a href="https://www.ffkarate.fr/" target="_blank">
-          <img src="<?php echo get_template_directory_uri() . '/img/ffkarate.jpg' ?>">
+          <img src="<?php echo get_template_directory_uri() . '/img/ffkarate.svg' ?>">
         </a>
         <p>CLUB AFFILIE FFKDA</p>
       </div>
