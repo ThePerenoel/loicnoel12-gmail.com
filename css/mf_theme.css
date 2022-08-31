@@ -23,7 +23,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-color: #233254;
+  background-color: #10234f;
 }
 
 .navbar-toggler-icon {
@@ -37,7 +37,7 @@ footer {
   width: 100%;
   min-height: 50px;
   font-size: 15px;
-  background-color: #233254;
+  background-color: #10234f;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -215,7 +215,7 @@ footer>p {
 
 p,
 ul {
-  color: #233254;
+  color: #10234f;
 }
 
 .intro {
@@ -311,7 +311,7 @@ blockquote cite {
 }
 
 .py-nav-default {
-  background-color: #233254;
+  background-color: #10234f;
 }
 
 .dojo-map {
@@ -381,7 +381,7 @@ h4 {
 }
 
 .dark-blue {
-  background-color: #233254;
+  background-color: #10234f;
 }
 
 .prices-card {
