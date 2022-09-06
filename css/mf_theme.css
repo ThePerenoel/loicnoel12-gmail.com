@@ -399,6 +399,10 @@ h4 {
   background-image: url(yoseikan-budo.jpg);
 }
 
+.info-page h1 {
+  background-image: url(practical.jpg);
+}
+
 .club-page h1 {
   background-image: url(cours.jpg);
 }
@@ -407,8 +411,16 @@ h4 {
   background-image: url(prises.jpg);
 }
 
+.subscription-page h1 {
+  background-image: url(gym.jpg);
+}
+
 .history-page h1 {
   background-image: url(iaito.jpg);
+}
+
+.contact-page h1 {
+  background-image: url(other.jpg);
 }
 
 .home-navbar {
