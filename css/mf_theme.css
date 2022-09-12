@@ -51,6 +51,10 @@ footer>p {
   color: white;
 }
 
+/*********************************************************************/
+/*                       Smartphone screen                           */
+/*********************************************************************/
+
 @media screen and (max-width: 425px) {
 
   .home-card p {
@@ -86,6 +90,8 @@ footer>p {
 
   .starter-template-default h1 {
     background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 40px;
   }
 
@@ -101,11 +107,11 @@ footer>p {
     display: none;
   }
 
-  .site-name {
-    margin-top: -56px;
-  }
-
 }
+
+/*********************************************************************/
+/*                       Computer screen                             */
+/*********************************************************************/
 
 @media screen and (min-width: 425px) {
 
@@ -142,6 +148,8 @@ footer>p {
 
   .starter-template-default h1 {
     background-attachment: fixed;
+    background-position: center -150px;
+    background-size: contain;
   }
 
   .starter-template-default h2 {
@@ -151,6 +159,18 @@ footer>p {
 
   .site-name {
     margin-top: -86px;
+  }
+
+  .info-page h1 {
+    background-position: center -250px;
+  }
+
+  .contact-page h1 {
+    background-position: center -250px;
+  }
+
+  .default-page h1 {
+    background-position: center;
   }
 
 }
@@ -295,13 +315,11 @@ blockquote cite {
 .starter-template-default h1 {
   color: white;
   text-align: center;
-  background-position: center;
   background-repeat: no-repeat;
   height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-size: cover;
 }
 
 #logo_py, #logo_py_white {
@@ -338,6 +356,7 @@ h3 {
   margin-right: 10px;
   margin-left: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
   padding-top: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
